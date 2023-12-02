@@ -1,0 +1,48 @@
+.cards{
+    margin-left: 20px;
+    color: white;
+}
+
+.posters{
+    display: flex;
+    padding: 20px; 
+    overflow-x: scroll;
+    overflow-y: hidden;   
+}
+
+.posters::-webkit-scrollbar{
+    display: none;
+}
+
+.card{
+    max-height: 170px;
+    margin-right: 14px;
+    border-radius: 4px;
+}
+
+.largecard{
+    max-height: 220px;
+    margin-right: 14px;
+    border-radius: 4px;
+}
+
+
+.largecard:hover{
+    transform: scale(1.1);
+    margin-left: 15px;
+    margin-right: 29px;
+    
+}
+
+
+.card:hover{
+    transform: scale(1.08);
+    margin-left: 15px;
+    margin-right: 29px;
+}
+
+.movieName{
+    
+    font-size: 17px;
+    margin-top: 3px;
+}
